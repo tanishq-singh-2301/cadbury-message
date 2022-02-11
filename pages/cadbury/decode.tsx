@@ -90,12 +90,12 @@ const Decode: NextPage<{ decoded: string; }> = ({ decoded }) => {
                 </div>
 
                 <div className="w-full h-1/6 flex justify-center items-center flex-col px-10">
-                    {scanned && <Link href="/cadbury/creategift">
-                        <a
-                            href="/cadbury/creategift"
-                            className="max-w-[370px] w-full text-center flex justify-center items-center h-16 bg-pink-600 rounded-full font-semibold sm:font-extrabold text-base text-white"
-                        >Create Your Own</a>
-                    </Link>}
+                    {scanned &&
+                        <Link href="/cadbury/creategift">
+                            <button
+                                className="max-w-[370px] w-full text-center flex justify-center items-center h-16 bg-pink-600 rounded-full font-semibold sm:font-extrabold text-base text-white"
+                            >Create Your Own</button>
+                        </Link>}
                 </div>
             </main>
 

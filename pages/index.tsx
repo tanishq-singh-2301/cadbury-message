@@ -42,10 +42,9 @@ const Home: NextPage = () => {
           <p className='text-white text-center w-full text-lg'>Let’s create a sweet surprise for your loved ones!</p>
 
           <Link href="/cadbury/creategift">
-            <a
-              href='/cadbury/creategift'
+            <button
               className='max-w-[270px] w-full text-center flex justify-center items-center h-16 bg-pink-600 rounded-full font-semibold sm:font-extrabold text-base text-white'
-            >Send a customized gift</a>
+            >Send a customized gift</button>
           </Link>
 
           {/* <Link href="/recieve">
@@ -62,10 +61,9 @@ const Home: NextPage = () => {
       <footer className='h-1/5 w-full flex justify-center items-end'>
 
         <Link href='/terms_and_condition'>
-          <a
+          <button
             className='text-white font-normal mb-2'
-            href='/terms_and_condition'
-          >View the Terms & Conditions</a>
+          >View the Terms & Conditions</button>
         </Link>
 
       </footer>
